@@ -1,1 +1,1 @@
-# mvc-jdbc-dhtmlx_test
+# mvc-jdbc-dhtmlx-test
