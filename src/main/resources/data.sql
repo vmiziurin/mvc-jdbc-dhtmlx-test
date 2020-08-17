@@ -1,0 +1,21 @@
+INSERT INTO kpacs VALUES(DEFAULT, 'kp1', 'This is kp1', "2010-11-08");
+INSERT INTO kpacs VALUES(DEFAULT, 'kp2', 'This is kp2', "2011-10-08");
+INSERT INTO kpacs VALUES(DEFAULT, 'kp3', 'This is kp3', "2015-07-01");
+INSERT INTO kpacs VALUES(DEFAULT, 'kp4', 'This is kp4', DEFAULT);
+INSERT INTO kpacs VALUES(DEFAULT, 'kp5', 'This is kp5', DEFAULT);
+
+INSERT INTO sets VALUES(DEFAULT, 'kps1');
+INSERT INTO sets VALUES(DEFAULT, 'kps2');
+INSERT INTO sets VALUES(DEFAULT, 'kps3');
+INSERT INTO sets VALUES(DEFAULT, 'kps4');
+INSERT INTO sets VALUES(DEFAULT, 'kps5');
+
+INSERT INTO kpacs_sets VALUES(1, 1);
+INSERT INTO kpacs_sets VALUES(1, 2);
+INSERT INTO kpacs_sets VALUES(1, 3);
+INSERT INTO kpacs_sets VALUES(1, 4);
+INSERT INTO kpacs_sets VALUES(2, 1);
+INSERT INTO kpacs_sets VALUES(2, 2);
+INSERT INTO kpacs_sets VALUES(3, 4);
+INSERT INTO kpacs_sets VALUES(4, 4);
+INSERT INTO kpacs_sets VALUES(5, 5);
